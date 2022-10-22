@@ -7,7 +7,7 @@ namespace PatronesDeDiseño.FactoryMethod {
         [SerializeField] private string _id;
 
         public KeyCode SpawnKey { get {
-            _spawnKey;
+            return _spawnKey;
         }}
 
         public string Id { get {
